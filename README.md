@@ -1,4 +1,4 @@
-# 👻 GHOSTY COLLIDER + PRECOG PROTOCOL
+# 👻 GHOSTY COLLIDER × 🔮 PRECOG PROTOCOL
 
 > **Two executable protocols for creative emergence and strategic foresight.**
 
