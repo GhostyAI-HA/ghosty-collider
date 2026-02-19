@@ -1,4 +1,4 @@
-# PRECOG PROTOCOL — Signal-Based Foresight Engine
+# 🔮 PRECOG PROTOCOL — Signal-Based Foresight Engine
 
 > **Read scattered signals. Reverse-engineer the structure. Cut through bias. Judge timing on multiple axes. Design action.**
 
@@ -6,7 +6,7 @@ Not trend-following. **Trend-reading.** The difference is the same as reading sh
 
 ---
 
-## Theoretical Foundation
+## 📚 Theoretical Foundation
 
 PRECOG PROTOCOL synthesizes three established strategic foresight methodologies into a single executable protocol:
 
@@ -23,7 +23,7 @@ These frameworks are designed for multi-week workshops with large teams. PRECOG 
 
 ---
 
-## How It Differs from Other Strategic Frameworks
+## ⚔️ How It Differs from Other Strategic Frameworks
 
 | | SWOT | PESTEL | Porter's 5 Forces | BCG Matrix | **PRECOG PROTOCOL** |
 |---|---|---|---|---|---|
@@ -43,7 +43,7 @@ These frameworks are designed for multi-week workshops with large teams. PRECOG 
 
 ---
 
-## When to Use Which Protocol
+## 🔀 When to Use Which Protocol
 
 | Your situation | Use | Why |
 |-------------|----------------|-----|
@@ -56,7 +56,7 @@ These frameworks are designed for multi-week workshops with large teams. PRECOG 
 
 ---
 
-## Confidence Tags (Mandatory on All Signals)
+## 🏷️ Confidence Tags (Mandatory on All Signals)
 
 | Tag | Meaning | Criteria |
 |-----|---------|----------|
@@ -66,9 +66,9 @@ These frameworks are designed for multi-week workshops with large teams. PRECOG 
 
 ---
 
-## The Precog Protocol (5 Steps)
+## 🔬 The Precog Protocol (5 Steps)
 
-### Step 1: Signal Map (3-5 Observable Signals)
+### 📡 Step 1: Signal Map (3-5 Observable Signals)
 
 Collect 3-5 **observable signals** related to the target theme.
 
@@ -86,7 +86,7 @@ Where to look for signals:
 
 ---
 
-### Step 2: Convergence Analysis (Reverse-Engineering Structure)
+### 🔍 Step 2: Convergence Analysis (Reverse-Engineering Structure)
 
 Identify where multiple signals **intersect** and reverse-engineer the underlying structure.
 
@@ -102,7 +102,7 @@ Narrow to 1-3 convergence points. For each:
 
 ---
 
-### Step 3: Contrarian View (Bias Elimination)
+### 🔴 Step 3: Contrarian View (Bias Elimination)
 
 For the most "obvious" conclusion, examine **why it might be wrong**.
 
@@ -123,7 +123,7 @@ Required:
 
 ---
 
-### Step 4: Timing Grid (Multi-Axis Timing Judgment)
+### ⏱️ Step 4: Timing Grid (Multi-Axis Timing Judgment)
 
 "When to move" cannot be determined on a single axis. **Layer multiple timing dimensions.**
 
@@ -176,7 +176,7 @@ Often overlooked but critical:
 
 ---
 
-### Step 5: Action Window
+### 🎯 Step 5: Action Window
 
 Based on the Timing Grid, specify **when to do what**.
 
@@ -193,7 +193,7 @@ Each action requires:
 
 ---
 
-## Signal History (Longitudinal Signal Tracking)
+## 📊 Signal History (Longitudinal Signal Tracking)
 
 When analyzing the same theme across multiple sessions, compare with previous Signal Maps.
 
@@ -214,7 +214,7 @@ When analyzing the same theme across multiple sessions, compare with previous Si
 
 ---
 
-## Prediction Feedback Loop
+## 🔄 Prediction Feedback Loop
 
 Track the accuracy of past predictions to improve future analysis quality.
 
@@ -238,7 +238,7 @@ Track the accuracy of past predictions to improve future analysis quality.
 
 ---
 
-## Anti-Patterns (How This Goes Wrong)
+## 🚨 Anti-Patterns (How This Goes Wrong)
 
 | Anti-Pattern | Symptom | Fix |
 |-------------|---------|-----|
@@ -251,7 +251,7 @@ Track the accuracy of past predictions to improve future analysis quality.
 
 ---
 
-## Output Format
+## 📋 Output Format
 
 ```markdown
 # Signal Analysis: [Theme]
@@ -291,14 +291,14 @@ Track the accuracy of past predictions to improve future analysis quality.
 
 ---
 
-## See Also
+## 🔗 See Also
 
 - **[GHOSTY COLLIDER](./GHOSTY_COLLIDER.md)** — Creative collision engine for cross-domain idea generation. Signals from PRECOG become Fragments for GHOSTY COLLIDER, and Visions from GHOSTY COLLIDER feed into PRECOG's Action Window.
 - **[Example: Market Timing Analysis](./examples/market_timing_analysis.md)** — Full walkthrough analyzing the AI agent market for strategic positioning.
 
 ---
 
-## Citation
+## 📝 Citation
 
 If you use PRECOG PROTOCOL in your work, please cite:
 
@@ -310,6 +310,6 @@ https://github.com/GhostyAI-HA/ghosty-collider
 
 ---
 
-## License
+## ⚖️ License
 
 [CC BY-NC 4.0](./LICENSE)

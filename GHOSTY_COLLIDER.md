@@ -1,4 +1,4 @@
-# GHOSTY COLLIDER — Creative Phantom Collision Engine
+# 👻 GHOSTY COLLIDER — Creative Phantom Collision Engine
 
 > **Collide the ghosts of concepts to birth things that don't yet exist.**
 
@@ -9,7 +9,7 @@ GHOSTY COLLIDER: "Fragments → Strip labels → Collide → Wait for emergence.
 
 ---
 
-## Theoretical Foundation
+## 📚 Theoretical Foundation
 
 GHOSTY COLLIDER is grounded in three established creativity theories, re-engineered as an executable protocol:
 
@@ -24,7 +24,7 @@ These theories describe *how creativity works*. GHOSTY COLLIDER prescribes *how 
 
 ---
 
-## How It Differs from Other Methods
+## ⚔️ How It Differs from Other Methods
 
 | | Brainstorming | SCAMPER | TRIZ | Design Thinking | **GHOSTY COLLIDER** |
 |---|---|---|---|---|---|
@@ -43,9 +43,9 @@ These theories describe *how creativity works*. GHOSTY COLLIDER prescribes *how 
 
 ---
 
-## The Ghost Protocol (5 Steps)
+## 🔬 The Ghost Protocol (5 Steps)
 
-### Step 1: Fragment Harvest
+### 🧩 Step 1: Fragment Harvest
 
 Collect fragments. **Anything qualifies.**
 
@@ -62,7 +62,7 @@ Minimum 3 fragments, ideal 5. **The more unrelated they are, the better.**
 
 ---
 
-### Step 2: Ghost Extraction (De-labeling)
+### 👻 Step 2: Ghost Extraction (De-labeling)
 
 **Strip each fragment of its label and extract the deep structure (Ghost).**
 
@@ -96,7 +96,7 @@ Ghost: "Not desertion but pilgrimage — a place people want to return to"
 
 ---
 
-### Step 3: Collision Matrix
+### 💥 Step 3: Collision Matrix
 
 **Intentionally collide extracted Ghosts against each other.**
 
@@ -116,7 +116,7 @@ Collision Scoring:
 
 ---
 
-### Step 4: Vision Crystallization
+### ✨ Step 4: Vision Crystallization
 
 From ⚡ Electric collisions, **something emerges**. This thing existed in neither Fragment A nor Fragment B. It was born from the collision.
 
@@ -139,7 +139,7 @@ Why Now: [Reason this is timely]
 
 ---
 
-### Step 5: Reality Bridge
+### 🌉 Step 5: Reality Bridge
 
 Visions are beautiful, but beauty alone isn't enough. **If you said "create," you must build a bridge to reality.**
 
@@ -150,7 +150,7 @@ Visions are beautiful, but beauty alone isn't enough. **If you said "create," yo
 
 ---
 
-## Quality Metrics for Visions
+## 📏 Quality Metrics for Visions
 
 Rate each Vision on these 4 dimensions:
 
@@ -167,7 +167,7 @@ Rate each Vision on these 4 dimensions:
 
 ---
 
-## Anti-Patterns (How This Goes Wrong)
+## 🚨 Anti-Patterns (How This Goes Wrong)
 
 | Anti-Pattern | Symptom | Fix |
 |-------------|---------|-----|
@@ -180,7 +180,7 @@ Rate each Vision on these 4 dimensions:
 
 ---
 
-## Output Format
+## 📋 Output Format
 
 ```markdown
 # 👻 GHOSTY COLLIDER — [Theme]
@@ -214,14 +214,14 @@ Why Now: [Reason]
 
 ---
 
-## See Also
+## 🔗 See Also
 
 - **[PRECOG PROTOCOL](./PRECOG_PROTOCOL.md)** — Signal-based foresight engine. Use when the question is "When should we move?" Signals from PRECOG become Fragments for GHOSTY COLLIDER, and Visions from GHOSTY COLLIDER feed into PRECOG's Action Window.
 - **[Example: Game Design Collision](./examples/game_design_collision.md)** — Full walkthrough using F2P game data, solo camping trends, and AI agent evolution.
 
 ---
 
-## Citation
+## 📝 Citation
 
 If you use GHOSTY COLLIDER in your work, please cite:
 
@@ -233,6 +233,6 @@ https://github.com/GhostyAI-HA/ghosty-collider
 
 ---
 
-## License
+## ⚖️ License
 
 [CC BY-NC 4.0](./LICENSE)

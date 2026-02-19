@@ -10,7 +10,7 @@ They work independently. They work even better together — Signals from PRECOG 
 
 ---
 
-## Why These Exist
+## 💡 Why These Exist
 
 | Problem | What people do | What these protocols do |
 |---------|---------------|----------------------|
@@ -20,9 +20,9 @@ They work independently. They work even better together — Signals from PRECOG 
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
-### GHOSTY COLLIDER — "What doesn't exist yet?"
+### 👻 GHOSTY COLLIDER — "What doesn't exist yet?"
 
 ```
 1. Collect 3-5 fragments (data, observations, feelings — anything)
@@ -34,7 +34,7 @@ They work independently. They work even better together — Signals from PRECOG 
 
 📖 [Full Protocol →](./GHOSTY_COLLIDER.md) · [Example →](./examples/game_design_collision.md)
 
-### PRECOG PROTOCOL — "When should we move?"
+### 🔮 PRECOG PROTOCOL — "When should we move?"
 
 ```
 1. Signal Map: 3-5 signals with evidence + confidence tags
@@ -48,7 +48,7 @@ They work independently. They work even better together — Signals from PRECOG 
 
 ---
 
-## Academic Foundation
+## 📚 Academic Foundation
 
 These are not ad-hoc frameworks. They formalize established theories into repeatable, executable protocols:
 
@@ -61,7 +61,7 @@ The key contribution is transforming descriptive theories ("how creativity works
 
 ---
 
-## When to Use Which
+## 🔀 When to Use Which
 
 ```
 You have raw materials (data, experiences, feelings)
@@ -77,13 +77,13 @@ You have both
 
 ---
 
-## Part of HyperAION
+## 🧠 Part of HyperAION
 
 These protocols were developed as part of [HyperAION](https://github.com/GhostyAI-HA/KG_Antigravity), an AI orchestration framework for knowledge work. They are designed to work standalone or as components in a larger AI agent workflow.
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 We welcome contributions, especially:
 - **New examples** — Apply the protocols to your domain and share the results
@@ -94,7 +94,7 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 ---
 
-## Citation
+## 📝 Citation
 
 ```
 Fujiyoshi, S. (2026). GHOSTY COLLIDER & PRECOG PROTOCOL: Executable Protocols
@@ -104,6 +104,6 @@ https://github.com/GhostyAI-HA/ghosty-collider
 
 ---
 
-## License
+## ⚖️ License
 
 [CC BY-NC 4.0](./LICENSE) — Use freely. Attribution appreciated.
