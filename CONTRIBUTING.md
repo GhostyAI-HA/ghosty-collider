@@ -40,4 +40,4 @@ Be constructive. These protocols are meant to generate new ideas and challenge a
 
 ## License
 
-By contributing, you agree that your contributions will be licensed under the [MIT License](./LICENSE).
+By contributing, you agree that your contributions will be licensed under the [CC BY-NC 4.0](./LICENSE).

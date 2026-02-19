@@ -106,4 +106,4 @@ https://github.com/GhostyAI-HA/ghosty-collider
 
 ## License
 
-[MIT](./LICENSE) — Use freely. Attribution appreciated.
+[CC BY-NC 4.0](./LICENSE) — Use freely. Attribution appreciated.

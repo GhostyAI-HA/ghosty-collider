@@ -312,4 +312,4 @@ https://github.com/GhostyAI-HA/ghosty-collider
 
 ## License
 
-[MIT](./LICENSE)
+[CC BY-NC 4.0](./LICENSE)
