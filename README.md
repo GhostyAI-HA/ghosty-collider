@@ -2,9 +2,9 @@
 
 > **Two executable protocols for creative emergence and strategic foresight.**
 
-**GHOSTY COLLIDER** strips concepts down to their deep structure, collides them, and crystallizes things that don't yet exist.
+**👻 GHOSTY COLLIDER** strips concepts down to their deep structure, collides them, and crystallizes things that don't yet exist.
 
-**PRECOG PROTOCOL** reads scattered signals, reverse-engineers structural shifts, and produces multi-axis timing judgments for strategic action.
+**🔮 PRECOG PROTOCOL** reads scattered signals, reverse-engineers structural shifts, and produces multi-axis timing judgments for strategic action.
 
 They work independently. They work even better together — Signals from PRECOG become Fragments for GHOSTY, and Visions from GHOSTY feed into PRECOG's Action Window.
 
