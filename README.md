@@ -79,7 +79,7 @@ You have both
 
 ## 🧠 Part of HyperAION
 
-These protocols were developed as part of [HyperAION](https://github.com/GhostyAI-HA/KG_Antigravity), an AI orchestration framework for knowledge work. They are designed to work standalone or as components in a larger AI agent workflow.
+These protocols were originally developed as part of **HyperAION**, an AI orchestration framework for knowledge work. They are fully standalone — no dependencies, no external tools required.
 
 ---
 
