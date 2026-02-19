@@ -95,9 +95,9 @@ The protocol's core operation — **Ghost Extraction** — is a systematic de-la
 
 **Step 1: Fragment Harvest.** Collect 3-5 fragments from diverse domains. Fragments may include quantitative data, qualitative observations, aesthetic impressions, gut feelings, absent patterns ("Why doesn't this exist?"), personal experiences, or constraints. The key requirement is diversity — homogeneous fragments (all from the same domain) reduce the probability of non-obvious collisions.
 
-**Step 2: Ghost Extraction (De-labeling).** For each fragment, strip its label and describe its deep structure using only structural language — no proper nouns, no industry jargon. The output (called a "Ghost") should read as a transformation: "X converts Y into Z" or "A mechanism that produces B through C." Quality criteria include: (a) uses verbs rather than nouns, (b) includes the emotional dimension of the experience, (c) is comprehensible to someone from a completely different domain, and (d) passes the reversibility test (negating the Ghost reveals something non-trivial).
+**Step 2: Ghost Extraction (De-labeling).** For each fragment, strip its label and describe its deep structure using only structural language — no proper nouns, no industry jargon. The output (called a "Ghost") should read as a transformation: "X converts Y into Z" or "A mechanism that produces B through C." This operation parallels Gentner's (1983) theory of structural alignment: the protocol forces the practitioner to map concepts at the level of relational structure rather than surface attributes, enabling the detection of deep analogies between domains that share no surface features. Quality criteria include: (a) uses verbs rather than nouns, (b) includes the emotional dimension of the experience, (c) is comprehensible to someone from a completely different domain, and (d) passes the reversibility test (negating the Ghost reveals something non-trivial).
 
-**Step 3: Collision Matrix.** Score pairwise combinations of Ghosts for structural resonance on a three-point scale: 💤 Boring (surface AND structural similarity — discard), 🤔 Interesting (structural overlap exists — hold), ⚡ Electric (surfaces are unrelated BUT deep structures resonate or clash — advance). Only Electric collisions proceed.
+**Step 3: Collision Matrix.** Score pairwise combinations of Ghosts for structural resonance on a three-point scale: 💤 Boring (surface AND structural similarity — discard), 🤔 Interesting (structural overlap exists — hold), ⚡ Electric (surfaces are unrelated BUT deep structures resonate or clash — advance). Only Electric collisions proceed. The scoring criteria operationalize Gick and Holyoak's (1983) finding that analogical transfer is most productive when the mapping occurs at the level of structural relations rather than surface features — Electric collisions are precisely those where surface dissimilarity coexists with structural resonance.
 
 **Step 4: Vision Crystallization.** For each Electric collision, articulate what emerges — something that existed in neither fragment alone. Each vision requires: a name, a one-line description, an emotional characterization, a cinematic image, and a "Why Now?" justification. Visions are rated on four dimensions (Novelty, Feasibility, Resonance, Timing) on a 1-5 scale; all dimensions must score ≥ 3 to advance.
 
@@ -150,11 +150,9 @@ A Prediction Feedback Loop tracks past prediction accuracy (Hit/Miss/Partial), t
 
 ---
 
-## 5. Integration: GHOSTY COLLIDER × PRECOG PROTOCOL × MOLD BREAKER
+## 5. Integration: GHOSTY COLLIDER × PRECOG PROTOCOL
 
-While each protocol functions independently, they exhibit strong complementarity through bidirectional integration. Additionally, a companion protocol — **MOLD BREAKER** — serves as a post-processing refinement step for outputs from either protocol.
-
-### 5.1 Bidirectional Integration
+While each protocol functions independently, they exhibit strong complementarity through bidirectional integration:
 
 **PRECOG → GHOSTY (Signal-to-Fragment Feeding).** Signals and convergence points from PRECOG analysis serve as high-quality fragments for GHOSTY COLLIDER. Because these signals have already been evidence-tagged and structurally analyzed, they produce richer Ghosts during extraction. The confidence tags ([Verified], [Reported], [Speculative]) carry forward as metadata on GHOSTY fragments, allowing the Reality Bridge step to calibrate its feasibility assessment based on evidence strength.
 
@@ -163,30 +161,6 @@ While each protocol functions independently, they exhibit strong complementarity
 **Integration Procedure.** In practice, the bidirectional integration follows three steps: (1) Execute PRECOG Protocol on a target domain to identify signals and convergence points. (2) Select 2-3 convergence points as fragments for GHOSTY COLLIDER, supplemented by 1-2 external-domain fragments to ensure heterogeneity. (3) Map the resulting visions back through PRECOG's Timing Grid and Action Window, using the visions' Reality Bridge outputs as inputs for action specification.
 
 This bidirectional integration creates a cycle: signals inform creative exploration, and creative visions inform strategic timing — a loop that neither protocol achieves alone. Case Study B (Section 6.2) demonstrates this integration in action.
-
-### 5.2 MOLD BREAKER: Typicality Bias Destruction
-
-A recurring challenge in creative ideation — whether human or AI-assisted — is the **Typicality Bias**: the tendency to converge on the most probable, genre-standard outputs (Doshi & Hauser, 2024). MOLD BREAKER addresses this directly through a 5-step procedure that systematically destroys conventional patterns in existing ideas:
-
-1. **Generate 5 Candidates** — produce volume without filtering.
-2. **Reject the First 3 Obvious** — explicitly discard the highest-typicality outputs with stated reasons.
-3. **Select Top 2 + Hybrid** — retain only structurally novel candidates; attempt recombination.
-4. **Apply 2 Orthogonal Frames** — force perpendicular perspectives (e.g., market vs. narrative, additive vs. subtractive).
-5. **Add a Killer Constraint** — impose a constraint that attacks remaining conventionality.
-
-MOLD BREAKER draws on constraint-based creativity (Stokes, 2005), structured analogical transfer (Gick & Holyoak, 1983; Gentner, 1983), and de Bono's lateral thinking provocations (1967). While individual components have precedent in the creativity literature, the protocol's contribution is integrating them into a single executable procedure specifically designed to counteract AI-assisted ideation's tendency toward modal outputs.
-
-**Relationship to GHOSTY COLLIDER and PRECOG PROTOCOL.** MOLD BREAKER operates on a different input type: whereas GHOSTY COLLIDER creates visions from raw fragments (generative) and PRECOG PROTOCOL reads timing from signals (analytical), MOLD BREAKER refines *existing ideas* by destroying their typicality (subtractive). The three protocols occupy complementary positions:
-
-| Protocol | Input | Operation | Output |
-|----------|-------|-----------|--------|
-| GHOSTY COLLIDER | Raw fragments | De-label → Collide → Crystallize | Emergent visions |
-| PRECOG PROTOCOL | Observable signals | Map → Converge → Time | Strategic actions |
-| MOLD BREAKER | Existing ideas | Reject → Reframe → Constrain | Sharpened, non-typical ideas |
-
-**Pipeline integration.** MOLD BREAKER integrates naturally as a post-processing step: (1) GHOSTY COLLIDER → MOLD BREAKER: take crystallized visions and push them past their initial typicality through forced rejection and killer constraints. (2) PRECOG PROTOCOL → MOLD BREAKER: apply MOLD BREAKER to the specific actions in each Action Window, ensuring that strategic responses are not merely conventional reactions to detected signals.
-
-We note that MOLD BREAKER's individual components are not novel — the "discard first ideas" heuristic, cross-domain analogy, and constraint-based creativity are established techniques. MOLD BREAKER's contribution is practical rather than theoretical: it provides a ready-made, executable countermeasure to the flattening effect that accompanies AI-assisted ideation. It is released alongside GHOSTY COLLIDER and PRECOG PROTOCOL as a companion tool rather than a primary theoretical contribution.
 
 ---
 
@@ -555,13 +529,13 @@ We identify the following limitations, ordered by severity:
 
 ## 9. Conclusion
 
-We have presented GHOSTY COLLIDER, PRECOG PROTOCOL, and the companion MOLD BREAKER as executable bridges between descriptive creativity/foresight theories and prescriptive practice. By formalizing the cognitive operations identified by Koestler, de Bono, Finke et al., Hatchuel & Weil, Ansoff, and Wack into step-by-step protocols with explicit quality criteria and failure modes, we aim to make creative emergence and strategic foresight accessible, repeatable, and improvable.
+We have presented GHOSTY COLLIDER and PRECOG PROTOCOL as executable bridges between descriptive creativity/foresight theories and prescriptive practice. By formalizing the cognitive operations identified by Koestler, de Bono, Finke et al., Hatchuel & Weil, Gentner, Gick & Holyoak, Ansoff, and Wack into step-by-step protocols with explicit quality criteria and failure modes, we aim to make creative emergence and strategic foresight accessible, repeatable, and improvable.
 
 The five case studies provide preliminary evidence of domain generality across financial analysis, business strategy, technology forecasting, music production, and video production. The batch experiment (N=8, success rate 87.5%) provides initial quantification of protocol reliability, identifying fragment diversity as the critical success factor. The controlled comparisons suggest that the protocols produce structurally distinct outputs — not merely better versions of conventional ideas, but qualitatively different directions that standard methods do not reach. The blind evaluation (74/80 vs. 49/80) confirmed the direction of author assessments while revealing a potentially larger quality gap than the author estimated. The reported failure cases and their incorporation into protocol v2 (pre-flight diversity check, over-determination check) demonstrate that the protocols can evolve based on empirical field testing.
 
-In the context of growing concern about AI-assisted ideation reducing aggregate creative diversity (Doshi & Hauser, 2024), these protocols represent one approach to structuring human-AI interaction in ways that preserve — and potentially enhance — the structural novelty of creative and strategic outputs. MOLD BREAKER specifically addresses this concern by providing a practical, executable countermeasure to typicality bias in any ideation output. Substantial further validation is needed, particularly multi-user evaluation with human domain expert blind assessment and retroactive validation of foresight predictions.
+In the context of growing concern about AI-assisted ideation reducing aggregate creative diversity (Doshi & Hauser, 2024), these protocols represent one approach to structuring human-AI interaction in ways that preserve — and potentially enhance — the structural novelty of creative and strategic outputs. Substantial further validation is needed, particularly multi-user evaluation with human domain expert blind assessment and retroactive validation of foresight predictions.
 
-The protocols (v2, incorporating lessons from failure case analysis) and the companion MOLD BREAKER are released as open-access documents at https://github.com/GhostyAI-HA/ghosty-collider under CC BY-NC 4.0, and we welcome contributions — particularly new case studies from diverse domains and multi-user evaluations that test the protocols' generalizability beyond their author.
+The protocols (v2, incorporating lessons from failure case analysis) are released as open-access documents at https://github.com/GhostyAI-HA/ghosty-collider under CC BY-NC 4.0. A companion tool, MOLD BREAKER, addressing typicality bias in existing ideas through structured rejection and constraint, is released alongside the protocols but is not evaluated in this paper. We welcome contributions — particularly new case studies from diverse domains and multi-user evaluations that test the protocols' generalizability beyond their author.
 
 ---
 
