@@ -1,12 +1,14 @@
-# 👻 GHOSTY COLLIDER × 🔮 PRECOG PROTOCOL
+# 👻 GHOSTY COLLIDER × 🔮 PRECOG PROTOCOL × 🔨 MOLD BREAKER
 
-> **Two executable protocols for creative emergence and strategic foresight.**
+> **Three executable protocols for creative emergence, strategic foresight, and typicality destruction.**
 
 **👻 GHOSTY COLLIDER** strips concepts down to their deep structure, collides them, and crystallizes things that don't yet exist.
 
 **🔮 PRECOG PROTOCOL** reads scattered signals, reverse-engineers structural shifts, and produces multi-axis timing judgments for strategic action.
 
-They work independently. They work even better together — Signals from PRECOG become Fragments for GHOSTY, and Visions from GHOSTY feed into PRECOG's Action Window.
+**🔨 MOLD BREAKER** takes existing ideas, destroys their typicality bias, and forces them into structurally novel territory.
+
+They work independently. They work even better together.
 
 ---
 
@@ -16,6 +18,7 @@ They work independently. They work even better together — Signals from PRECOG 
 |---------|---------------|----------------------|
 | "We need new ideas" | Brainstorm within existing frames | **Strip labels first**, then collide deep structures across domains |
 | "When should we move?" | Gut feeling + one-axis analysis | **4-axis Timing Grid** with explicit confidence tags and bias elimination |
+| "Our ideas are all boring" | Generate more of the same | **Force-discard the obvious 3**, keep only what's structurally novel |
 | "Connect the dots" | Pattern matching on surface similarities | **Ghost Extraction** reveals hidden structural resonance between unrelated concepts |
 
 ---
@@ -26,6 +29,7 @@ They work independently. They work even better together — Signals from PRECOG 
 
 ```
 1. Collect 3-5 fragments (data, observations, feelings — anything)
+   → Pre-flight diversity check: minimum 2 distinct domains
 2. Ghost Extraction: Strip labels → describe deep structure
 3. Collision Matrix: Score structural resonance (💤 / 🤔 / ⚡)
 4. Vision Crystallization: Name what emerges from ⚡ collisions
@@ -41,10 +45,23 @@ They work independently. They work even better together — Signals from PRECOG 
 2. Convergence: Reverse-engineer structural shifts
 3. Contrarian View: Challenge the obvious conclusion
 4. Timing Grid: Market Phase × Competition × Readiness × External Window
+   → Over-determination check: all-aligned = trigger escalated contrarian
 5. Action Window: Now / Soon / Watch with specific triggers
 ```
 
 📖 [Full Protocol →](./PRECOG_PROTOCOL.md) · [Example →](./examples/market_timing_analysis.md)
+
+### 🔨 MOLD BREAKER — "Break the obvious."
+
+```
+1. Generate 5 candidates (volume first)
+2. Reject the first 3 obvious ones (forced discard with reasons)
+3. Select top 2 + Hybrid (keep the structurally novel)
+4. Apply 2 orthogonal frames (shift the axis)
+5. Add a Killer Constraint (force the final edge)
+```
+
+📖 [Full Protocol →](./MOLD_BREAKER.md)
 
 ---
 
@@ -56,6 +73,7 @@ These are not ad-hoc frameworks. They formalize established theories into repeat
 |----------|------------------|
 | **GHOSTY COLLIDER** | Bisociation (Koestler 1964), Lateral Thinking (de Bono 1967), Geneplore Model (Finke, Ward & Smith 1992) |
 | **PRECOG PROTOCOL** | Horizon Scanning (OECD/UNDP), Weak Signals Theory (Ansoff 1975), Scenario Planning (Shell/Wack 1970s) |
+| **MOLD BREAKER** | Typicality Bias (Doshi & Hauser 2024), Constraint-based Creativity (Stokes 2005), Structural Analogy (Gick & Holyoak 1983) |
 
 The key contribution is transforming descriptive theories ("how creativity works") into prescriptive protocols ("how to make it happen on demand").
 
@@ -70,9 +88,13 @@ You have raw materials (data, experiences, feelings)
 You have a market/domain question about timing
   → PRECOG PROTOCOL ("When should we move?")
 
-You have both
+You have ideas but they're all conventional
+  → MOLD BREAKER ("Break the mold.")
+
+You have all three needs
   → PRECOG signals become GHOSTY fragments
-  → GHOSTY visions feed PRECOG action windows
+  → GHOSTY visions go through MOLD BREAKER
+  → Sharpened visions feed PRECOG action windows
 ```
 
 ---
@@ -97,8 +119,9 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 ## 📝 Citation
 
 ```
-Fujiyoshi, S. (2026). GHOSTY COLLIDER & PRECOG PROTOCOL: Executable Protocols
-for Creative Emergence and Strategic Foresight. GitHub.
+Fujiyoshi, S. (2026). GHOSTY COLLIDER, PRECOG PROTOCOL & MOLD BREAKER:
+Executable Protocols for Creative Emergence, Strategic Foresight,
+and Typicality Destruction. GitHub.
 https://github.com/GhostyAI-HA/ghosty-collider
 ```
 
