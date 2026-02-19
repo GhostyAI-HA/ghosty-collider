@@ -174,6 +174,16 @@ Often overlooked but critical:
 | → Overall | **Conditional Go** — [Explicit conditions] |
 ```
 
+#### ⚠️ Over-Determination Check (Mandatory)
+
+**If all 4 axes align in the same direction (all Go or all Wait/Kill), trigger an escalated Contrarian View:**
+
+1. Re-examine each axis independently — is the judgment genuinely independent, or did the first axis's result bias the remaining assessments?
+2. Apply the "Pre-Mortem" test: "Assume this all-Go assessment is wrong. What would have to be true for failure?"
+3. Search for at least one axis where a reasonable contrarian case exists.
+
+> **Why this matters:** In field testing, an all-axes-aligned Timing Grid was found to reflect confirmation bias rather than genuine strategic alignment. The more unanimous the Timing Grid, the more suspicion it deserves.
+
 ---
 
 ### 🎯 Step 5: Action Window
@@ -244,6 +254,7 @@ Track the accuracy of past predictions to improve future analysis quality.
 |-------------|---------|-----|
 | **Confirmation Bias in Signal Selection** | Only collecting signals that support a pre-existing belief | Force at least one signal that contradicts your thesis. If you can't find one, your search is too narrow |
 | **Single-Axis Timing** | "Market is hot, let's go!" without checking readiness or competition | Always complete the full 4-axis Timing Grid. One "Go" axis doesn't mean overall "Go" |
+| **Timing Grid Over-Determination** | All 4 axes align unanimously (all Go or all Wait) | **Trigger escalated Contrarian View.** Unanimous agreement across independent axes is statistically suspicious — apply the Pre-Mortem test |
 | **Vague Action Windows** | "Watch and see" / "Monitor the situation" without specific triggers | Every Watch item MUST have a concrete trigger: "If X happens, then do Y" |
 | **Recency Bias** | Overweighting events from the last 2 weeks | Check: "Would I still select this signal if it happened 6 months ago?" |
 | **Survivorship Bias** | Only citing successful cases in Convergence | In Contrarian View, actively search for failures in similar situations |
