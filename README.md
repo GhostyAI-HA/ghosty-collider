@@ -1,5 +1,8 @@
 # 👻 GHOSTY COLLIDER × 🔮 PRECOG PROTOCOL × 🔨 MOLD BREAKER
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18707858.svg)](https://doi.org/10.5281/zenodo.18707858)
+[![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
+
 > **Three executable protocols for creative emergence, strategic foresight, and typicality destruction.**
 
 **👻 GHOSTY COLLIDER** strips concepts down to their deep structure, collides them, and crystallizes things that don't yet exist.
@@ -77,6 +80,8 @@ These are not ad-hoc frameworks. They formalize established theories into repeat
 
 The key contribution is transforming descriptive theories ("how creativity works") into prescriptive protocols ("how to make it happen on demand").
 
+📄 **Paper:** ["From Theory to Protocol: Executable Frameworks for Creative Emergence and Strategic Foresight"](https://zenodo.org/records/18707858) (Fujiyoshi, 2026)
+
 ---
 
 ## 🔀 When to Use Which
@@ -118,12 +123,23 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
 
 ## 📝 Citation
 
+If you use these protocols in your research, please cite:
+
+```bibtex
+@misc{fujiyoshi2026collider,
+  author       = {Fujiyoshi, Shun},
+  title        = {From Theory to Protocol: Executable Frameworks for
+                  Creative Emergence and Strategic Foresight},
+  year         = {2026},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.18707858},
+  url          = {https://doi.org/10.5281/zenodo.18707858}
+}
 ```
-Fujiyoshi, S. (2026). GHOSTY COLLIDER, PRECOG PROTOCOL & MOLD BREAKER:
-Executable Protocols for Creative Emergence, Strategic Foresight,
-and Typicality Destruction. GitHub.
-https://github.com/GhostyAI-HA/ghosty-collider
-```
+
+Or in text:
+
+> Fujiyoshi, S. (2026). From Theory to Protocol: Executable Frameworks for Creative Emergence and Strategic Foresight. *Zenodo*. https://doi.org/10.5281/zenodo.18707858
 
 ---
 
