@@ -1,0 +1,293 @@
+% ICCC 2026 Submission — Double-blind review
+% Format: AAAI/IJCAI style (2-column)
+% Page limit: 8 pages + 2 pages references
+\documentclass[letterpaper]{article}
+
+% --- AAAI-style packages ---
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{times}
+\usepackage[margin=0.75in,columnsep=0.25in]{geometry}
+\usepackage{multicol}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{natbib}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{tabularx}
+\usepackage{array}
+\usepackage{titlesec}
+
+% Compact formatting
+\setlength{\parskip}{0pt}
+\setlength{\parindent}{1em}
+\setlist{nosep,leftmargin=*}
+\titlespacing*{\section}{0pt}{8pt}{4pt}
+\titlespacing*{\subsection}{0pt}{6pt}{3pt}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=black,
+  citecolor=black,
+  urlcolor=black
+}
+
+% --- Double-blind: NO author info ---
+\title{From Theory to Protocol: Executable Frameworks\\for Creative Emergence and Strategic Foresight}
+\author{Anonymous}
+\date{}
+
+\begin{document}
+\maketitle
+\vspace{-1em}
+
+\begin{multicols}{2}
+
+% --- Abstract ---
+\noindent\textbf{Abstract.}
+Creativity and strategic foresight have been extensively studied through descriptive theories---Koestler's bisociation, de Bono's lateral thinking, and Ansoff's weak signals explain \emph{why} creative insights occur, but offer limited guidance on \emph{how to produce them on demand}. This paper presents two executable protocols that bridge this theory-practice gap: \textbf{GHOSTY COLLIDER}, a 5-step protocol for cross-domain creative emergence through structural de-labeling and collision, and \textbf{PRECOG PROTOCOL}, a 5-step protocol for signal-based strategic foresight with multi-axis timing judgment. We evaluate the protocols through two detailed case studies, controlled comparisons against standard methods, and a batch experiment (N=8, success rate 87.5\%) with one blind evaluation. Preliminary evidence suggests that protocol-driven outputs exhibit greater structural novelty and qualitatively distinct creative directions compared to standard methods.
+
+\smallskip
+\noindent\textbf{Keywords:} creativity support, strategic foresight, executable protocols, bisociation, human-AI co-creativity
+
+% === 1. INTRODUCTION ===
+\section{Introduction}
+\label{sec:intro}
+
+The gap between creativity theory and creative practice remains substantial. Koestler's bisociation \citep{koestler1964} explains that creative breakthroughs arise from connecting previously unrelated ``matrices of thought,'' but offers no systematic method for identifying or forcing such connections. De Bono's lateral thinking \citep{debono1967} prescribes ``thinking differently'' but provides few operationalizable steps with measurable quality criteria. In strategic foresight, Ansoff's weak signals theory \citep{ansoff1975} identifies the phenomenon of early indicators but does not specify how to distinguish actionable signals from noise.
+
+This theory-practice gap has real consequences. Practitioners who adopt these frameworks often find themselves without clear procedures: \emph{when} to apply which technique, \emph{how} to evaluate intermediate results, and \emph{what constitutes} a successful output. The result is that creativity and foresight remain largely dependent on individual talent rather than executable process.
+
+Recent work on AI-augmented creativity has highlighted an additional concern: while generative AI enhances individual creative productivity, it simultaneously reduces the collective diversity of novel content \citep{doshi2024}. This ``flattening effect'' suggests that without structural interventions, AI-assisted creative work converges toward modal outputs.
+
+We present two protocols that address these challenges:
+\begin{itemize}
+  \item \textbf{GHOSTY COLLIDER}: A 5-step protocol that forces cross-domain creative emergence through structural de-labeling (``Ghost Extraction'') and systematic collision of deep structures.
+  \item \textbf{PRECOG PROTOCOL}: A 5-step protocol for signal-based strategic foresight that produces multi-axis timing judgments with explicit confidence tags.
+\end{itemize}
+
+Both protocols share three design principles: (1) every step produces an explicit, inspectable artifact; (2) quality criteria are defined at each stage; and (3) anti-patterns are documented with detection heuristics.
+
+% === 2. RELATED WORK ===
+\section{Related Work}
+\label{sec:related}
+
+\textbf{Creativity theory.} Koestler's bisociation \citep{koestler1964} identifies the mechanism of creative insight as the intersection of independent frames of reference. The Geneplore model \citep{finke1992} separates creative cognition into generative and exploratory phases. Gentner's structure-mapping theory \citep{gentner1983} demonstrates that productive analogies operate at the level of relational structure rather than surface features. Our GHOSTY COLLIDER protocol operationalizes these theories: Ghost Extraction implements structure-mapping, and the Collision Matrix systematizes bisociative intersection.
+
+\textbf{Creativity support tools.} Gero et al.\ developed Metaphoria \citep{gero2019}, which surfaces cross-domain metaphors to stimulate creative writing. Lee et al.\ \citep{lee2024} proposed a design space for intelligent writing assistants, distinguishing process-level from task-level support. Our work targets process-level structuring---providing the cognitive scaffolding for creative emergence rather than generating content directly.
+
+\textbf{Strategic foresight.} Horizon scanning methodologies \citep{oecd2020} provide frameworks for detecting emerging trends. Ansoff's weak signals theory \citep{ansoff1975} identifies the challenge of recognizing early indicators. Our PRECOG PROTOCOL extends these approaches by introducing a multi-axis Timing Grid that produces explicit disagreement across dimensions.
+
+\textbf{AI and creativity.} Doshi and Hauser \citep{doshi2024} demonstrated that generative AI enhances individual creativity but reduces collective diversity. Our protocols specifically counteract this flattening effect by imposing structural de-labeling \emph{before} any AI-assisted ideation, forcing divergence at the structural level.
+
+% === 3. GHOSTY COLLIDER ===
+\section{GHOSTY COLLIDER Protocol}
+\label{sec:collider}
+
+The protocol consists of five steps, each producing explicit artifacts.
+
+\textbf{Step 1: Fragment Harvest.} Collect 3--5 fragments from diverse domains (minimum 2 distinct domains). Fragments may include quantitative data, qualitative observations, aesthetic impressions, or constraints.
+
+\textbf{Step 2: Ghost Extraction.} For each fragment, strip its domain label and describe its deep structure using only structural language---no proper nouns, no jargon. The output (``Ghost'') should read as a transformation: ``X converts Y into Z.'' This parallels Gentner's \citeyearpar{gentner1983} structural alignment theory: mapping at the level of relational structure rather than surface attributes. Quality criteria: (a) uses verbs rather than nouns, (b) includes emotional dimension, (c) comprehensible cross-domain, (d) passes reversibility test.
+
+\textbf{Step 3: Collision Matrix.} Score pairwise Ghost combinations: \emph{Boring} (surface AND structural similarity---discard), \emph{Interesting} (structural overlap---hold), \emph{Electric} (surfaces unrelated BUT deep structures resonate---advance). Only Electric collisions proceed, operationalizing Gick and Holyoak's \citeyearpar{gick1983} finding that analogical transfer is most productive when surface dissimilarity coexists with structural resonance.
+
+\textbf{Step 4: Vision Crystallization.} For each Electric collision, articulate what emerges---something that existed in neither fragment alone. Each vision requires: a name, description, emotional characterization, and ratings on Novelty, Feasibility, Resonance, and Timing (1--5 scale; all $\geq 3$ to advance).
+
+\textbf{Step 5: Reality Bridge.} Convert visions into actionable plans: Minimum Viable Version (achievable in 2 weeks), Kill Conditions (what would invalidate the vision), and First Step (executable within 24 hours).
+
+\textbf{Anti-patterns.} Three documented anti-patterns with detection heuristics: (1) \emph{Label Residue}---Ghosts that retain domain-specific terminology; (2) \emph{Forced Connection}---artificially elevating collision scores; (3) \emph{Vision Inflation}---naming outputs that are combinations rather than emergent novelty.
+
+% === 4. PRECOG PROTOCOL ===
+\section{PRECOG PROTOCOL}
+\label{sec:precog}
+
+\textbf{Step 1: Signal Map.} Identify 3--5 signals with explicit strength tags (Strong/Emerging/Weak), directional indicators ($\uparrow$/$\downarrow$/$\rightarrow$), and evidence quality markers ([Verified]/[Reported]/[Rumored]).
+
+\textbf{Step 2: Convergence Analysis.} Identify where multiple signals point to the same structural shift. Each convergence hypothesis requires a confidence level and a falsification condition.
+
+\textbf{Step 3: Contrarian View.} For each convergence, articulate scenarios with probability estimates (10--90\% range) where the obvious conclusion fails. Over-determination check: if all axes align, trigger escalated contrarian analysis.
+
+\textbf{Step 4: Timing Grid.} Evaluate across four independent axes: Market Phase (Pre-emergence/Emergence/Acceleration/Maturity), Competitive Window (First Mover/Fast Follower/Crowded), Readiness (Not Ready/Partial/Ready/Over-invested), and External Window (Closed/Opening/Open/Closing). The key innovation is that axes can \emph{disagree}---producing timing nuance absent from single-axis frameworks.
+
+\textbf{Step 5: Action Categorization.} Classify actions as Now/Soon/Watch/Kill with specific trigger conditions for re-evaluation.
+
+% === 5. INTEGRATION ===
+\section{Protocol Integration}
+\label{sec:integration}
+
+While each protocol functions independently, they exhibit strong complementarity:
+
+\textbf{PRECOG $\rightarrow$ GHOSTY:} PRECOG's signal convergences become GHOSTY input fragments. The structural shifts identified through foresight analysis serve as pre-extracted deep structures for creative collision.
+
+\textbf{GHOSTY $\rightarrow$ PRECOG:} GHOSTY's emergent visions enter PRECOG's Timing Grid for multi-axis timing assessment, producing action-ready outputs with explicit timing judgments.
+
+% === 6. CASE STUDIES ===
+\section{Case Studies}
+\label{sec:cases}
+
+We present two case studies demonstrating protocol execution across distinct domains.
+
+\subsection{Competitive Strategy (Integration)}
+\label{sec:caseb}
+
+\textbf{Domain:} Corporate strategy for long-range competitive positioning against a dominant technology company.
+
+\textbf{PRECOG Phase.} Six signals mapped: advertising revenue deceleration vs.\ cloud acceleration (Strong, [Verified]); competitors investing in AI infrastructure (Strong, [Verified]); target's AI models reaching frontier quality (Strong, [Verified]); regulatory pressure on data monopolies (Emerging, [Reported]); developer ecosystem fragmentation (Emerging, [Verified]); consumer trust declining (Weak, [Reported]).
+
+Three convergences identified: (1) ``Revenue structure metamorphosis''---the target is simultaneously growing and shrinking; (2) ``Platform hegemony contestable''---multiple well-capitalized challengers; (3) ``Social license at risk''---regulatory momentum + trust decline.
+
+\textbf{GHOSTY Phase.} Five Ghosts extracted (3 from convergences + 2 external). Three Electric collisions identified. Vision Crystallization produced three strategic concepts:
+\begin{enumerate}
+  \item \emph{Infrastructure Play}---Position as AI picks-and-shovels provider during target's transition. (N:3, F:4, R:4, T:5)
+  \item \emph{Experience Layer}---Build AI-native UX layer; interface becomes moat. (N:4, F:3, R:5, T:4)
+  \item \emph{Trust Arbitrage}---Brand positioned as ``not-[target],'' capturing trust refugees. (N:5, F:3, R:4, T:3)
+\end{enumerate}
+
+\textbf{Timing Grid} revealed that the same environment simultaneously presents ``Go'' timing for Infrastructure Play and ``Watch'' for Trust Arbitrage---a nuance undetectable by single-axis frameworks (Table~\ref{tab:timing}).
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\begin{tabular}{lccccc}
+\toprule
+\textbf{Vision} & \textbf{Mkt} & \textbf{Comp} & \textbf{Ready} & \textbf{Ext} & \textbf{Overall} \\
+\midrule
+Infrastructure & Accel & Fast F. & Ready & Open & \textbf{Go} \\
+Experience & Emerg & 1st Mvr & Partial & Opening & \textbf{Soon} \\
+Trust Arb. & Pre-em & Undef & Not & Closed & \textbf{Watch} \\
+\bottomrule
+\end{tabular}
+\caption{Timing Grid: same environment, different timings.}
+\label{tab:timing}
+\end{table}
+
+\subsection{Music Production (GHOSTY COLLIDER)}
+\label{sec:cased}
+
+\textbf{Domain:} Song concept design for a pop group.
+
+\textbf{Input:} Five fragments: (1) emotional concept of ``hiding affection''; (2) Jersey Club/UK Garage genre characteristics; (3) linguistic properties of the target language (vowel openness correlating with emotional exposure); (4) the aesthetic of ``armor''; (5) real-time audience engagement patterns.
+
+\textbf{Ghost Extraction} produced five structural descriptions, including: ``The act of concealment becoming pleasure---hiding as masochistic performance'' and ``Physical mouth shape as a betrayal mechanism---the body expressing what the mind suppresses.''
+
+\textbf{Collision Matrix:} 2 Electric collisions (hiding $\times$ armor; body betrayal $\times$ concealment).
+
+\textbf{Emergent Vision:} A song concept where musical parameters are derived from Ghost structures rather than genre convention. Key selected based on tonal character (isolation). Modulation reframed as narrative surrender. Vocal breakpoints designed where ``the voice is permitted to crack.''
+
+\textbf{Output:} 12 production parameters explicitly defined (key, BPM, chord rationale, energy coordinates, silence design, vocal direction for 9 sections, syllable counts, vowel mapping, modulation meaning, breakdown philosophy). Author-assessed quality: 75/80. The protocol produced three times the number of explicitly defined parameters versus conventional concept briefs.
+
+% === 7. EVALUATION ===
+\section{Evaluation}
+\label{sec:eval}
+
+\subsection{Controlled Comparisons}
+
+We compared protocol outputs against standard methods (brainstorming, SWOT analysis) using identical inputs across three domains.
+
+\begin{table}[ht]
+\centering
+\scriptsize
+\begin{tabular}{lcc}
+\toprule
+\textbf{Metric} & \textbf{Protocol} & \textbf{Standard} \\
+\midrule
+Structural novelty & High & Low--Medium \\
+Cross-domain connections & 3--5 per output & 0--1 \\
+Parameter specificity & Quantified & Qualitative \\
+Actionable timing & Multi-axis & Binary/absent \\
+Failure mode detection & Built-in & Post-hoc \\
+\bottomrule
+\end{tabular}
+\caption{Protocol vs.\ standard method comparison.}
+\label{tab:comparison}
+\end{table}
+
+Three failure cases were documented: one ``Electric'' collision that produced a vision scoring below thresholds (False Electric), one premature convergence where Ghost Extraction was skipped, and one domain where all fragments came from the same field. Each failure was used to refine protocol documentation (Version 2).
+
+\subsection{Batch Experiment}
+
+Eight randomly generated domain pairings were processed through GHOSTY COLLIDER by a single operator. Results: 7 of 8 trials produced qualifying visions ($\geq$ 3 on all four dimensions). Success rate: 87.5\%. The single failure case (``Quantum Computing $\times$ Traditional Architecture'') failed due to Label Residue---the operator retained quantum computing terminology during Ghost Extraction, preventing structural-level collision.
+
+\subsection{Blind Evaluation}
+
+One case study (Music Production) was evaluated blind by a domain expert who received both protocol output and brainstormed output without source labels. Results: protocol output scored 74/80, brainstormed output scored 49/80. The expert noted the protocol output's ``unusual specificity'' and ``parameters I wouldn't have thought to define.''
+
+% === 8. DISCUSSION ===
+\section{Discussion}
+\label{sec:discussion}
+
+\textbf{Contributions.} We demonstrate that established creativity and foresight theories can be translated into executable protocols without losing their generative power. The key innovations---Ghost Extraction for structural de-labeling, the Collision Matrix for systematic bisociation, and the multi-axis Timing Grid---each formalize a specific theoretical mechanism into a repeatable procedure.
+
+\textbf{Limitations.} Four critical limitations constrain our claims: (1) All evaluations involve a single operator, preventing separation of protocol effects from individual skill. (2) Quality metrics are primarily author-assessed, introducing potential bias. (3) The batch experiment sample (N=8) is insufficient for statistical significance. (4) Long-term tracking of vision implementation outcomes is not yet available.
+
+\textbf{Future work.} Priority directions include: multi-user studies with diverse operator populations, computational novelty metrics replacing subjective assessment, retroactive validation of PRECOG predictions as 2026--2028 data becomes available, and longitudinal tracking of vision-to-implementation conversion rates.
+
+% === 9. CONCLUSION ===
+\section{Conclusion}
+\label{sec:conclusion}
+
+This paper presented GHOSTY COLLIDER and PRECOG PROTOCOL as executable implementations of established creativity and strategic foresight theories. Our evaluation, while preliminary and limited by single-operator execution, suggests that the theory-to-protocol translation preserves the generative power of the underlying theories while adding procedural rigor, quality gates, and failure detection mechanisms. The protocols are released as open-access documents to enable independent replication and multi-user evaluation.
+
+\end{multicols}
+
+% === REFERENCES ===
+\bibliographystyle{aaai}
+\begin{thebibliography}{20}
+
+\bibitem[Ansoff(1975)]{ansoff1975}
+Ansoff, H.~I. (1975).
+\newblock Managing strategic surprise by response to weak signals.
+\newblock \emph{California Management Review}, 18(2):21--33.
+
+\bibitem[de~Bono(1967)]{debono1967}
+de~Bono, E. (1967).
+\newblock \emph{The Use of Lateral Thinking}.
+\newblock Jonathan Cape.
+
+\bibitem[Doshi and Hauser(2024)]{doshi2024}
+Doshi, A.~R. and Hauser, O.~P. (2024).
+\newblock Generative artificial intelligence enhances individual creativity but reduces the collective diversity of novel content.
+\newblock \emph{Science Advances}, 10(28):eadn5290.
+
+\bibitem[Finke et~al.(1992)]{finke1992}
+Finke, R.~A., Ward, T.~B., and Smith, S.~M. (1992).
+\newblock \emph{Creative Cognition: Theory, Research, and Applications}.
+\newblock MIT Press.
+
+\bibitem[Gentner(1983)]{gentner1983}
+Gentner, D. (1983).
+\newblock Structure-mapping: A theoretical framework for analogy.
+\newblock \emph{Cognitive Science}, 7(2):155--170.
+
+\bibitem[Gero et~al.(2019)]{gero2019}
+Gero, K.~I., Chilton, L.~B., et~al. (2019).
+\newblock Metaphoria: An algorithmic companion for metaphor creation.
+\newblock In \emph{Proceedings of CHI 2019}, pages 1--12.
+
+\bibitem[Gick and Holyoak(1983)]{gick1983}
+Gick, M.~L. and Holyoak, K.~J. (1983).
+\newblock Schema induction and analogical transfer.
+\newblock \emph{Cognitive Psychology}, 15(1):1--38.
+
+\bibitem[Koestler(1964)]{koestler1964}
+Koestler, A. (1964).
+\newblock \emph{The Act of Creation}.
+\newblock Hutchinson.
+
+\bibitem[Lee et~al.(2024)]{lee2024}
+Lee, M., Liang, P., and Yang, Q. (2024).
+\newblock A design space for intelligent and interactive writing assistants.
+\newblock In \emph{Proceedings of CHI 2024}, pages 1--35.
+
+\bibitem[OECD(2020)]{oecd2020}
+OECD (2020).
+\newblock \emph{Strategic Foresight for the COVID-19 Crisis and Beyond}.
+\newblock OECD Publishing.
+
+\end{thebibliography}
+
+\end{document}
