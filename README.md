@@ -6,6 +6,8 @@
 
 **Four executable protocols that turn raw fragments into things that don't exist yet.**
 
+[🇯🇵 日本語版はこちら](./README.ja.md)
+
 Most creativity techniques tell you *what creativity is*. These tell you *how to do it* — step by step, with built-in quality gates and kill conditions.
 
 > **Input:** F2P game churn data + solo camping trends + AI agent evolution
