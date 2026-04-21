@@ -1,9 +1,10 @@
-# 👻 GHOSTY COLLIDER × 🔮 PRECOG PROTOCOL × 🔨 MOLD BREAKER
+# 👻 GHOSTY COLLIDER × 🔮 PRECOG PROTOCOL × ⚔️ BERSERK × 🔨 MOLD BREAKER
 
+[![arXiv](https://img.shields.io/badge/arXiv-2604.09597-b31b1b.svg)](https://arxiv.org/abs/2604.09597)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18707858.svg)](https://doi.org/10.5281/zenodo.18707858)
 [![License: CC BY-NC 4.0](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc/4.0/)
 
-**Three executable protocols that turn raw fragments into things that don't exist yet.**
+**Four executable protocols that turn raw fragments into things that don't exist yet.**
 
 Most creativity techniques tell you *what creativity is*. These tell you *how to do it* — step by step, with built-in quality gates and kill conditions.
 
@@ -20,23 +21,25 @@ Most creativity techniques tell you *what creativity is*. These tell you *how to
 - **Founders** deciding when to enter a market and what angle to take
 - **Researchers** looking for cross-domain connections that surface-level analogy misses
 - **AI practitioners** building creative reasoning into agent systems
+- **Anyone** who wants to systematically produce ideas that surprise even themselves
 
 ---
 
-## The Three Protocols
+## The Four Protocols
 
 ### 👻 GHOSTY COLLIDER — "What doesn't exist yet?"
 
 Strips concepts to their deep structure, collides them across domains, and crystallizes genuinely new ideas.
 
 ```
-1. Collect 3-5 fragments (data, observations, feelings — anything)
-   → Pre-flight diversity check: minimum 2 distinct domains
-2. Ghost Extraction: Strip labels → describe deep structure
-3. Collision Matrix: Score structural resonance (💤 / 🤔 / ⚡)
-4. Vision Crystallization: Name what emerges from ⚡ collisions
-5. Reality Bridge: MVV + Kill Conditions + First Step
+0. Collect 3-5 fragments (data, observations, feelings — anything)
+1. Ghost Extraction: Strip labels → describe deep structure (4 depth levels)
+2. Collision Matrix: Score structural resonance (💤 / 🤔 / ⚡)
+3. Vision Crystallization: Name what emerges from ⚡ collisions
+4. Reality Bridge: MVV + Kill Conditions + First Step + Action Card
 ```
+
+**New in this version:** Ghost Depth Scaling (shallow → medium → deep → abyss), BERSERK integration, PHANTOM ARENA (multi-context collision), Vision Quality Metrics, Action Card generation.
 
 **Theoretical basis:** Bisociation (Koestler 1964), Lateral Thinking (de Bono 1967), Geneplore Model (Finke, Ward & Smith 1992)
 
@@ -49,17 +52,44 @@ Strips concepts to their deep structure, collides them across domains, and cryst
 Reads scattered signals, reverse-engineers structural shifts, and produces multi-axis timing judgments.
 
 ```
-1. Signal Map: 3-5 signals with evidence + confidence tags
+0. Subject Definition: Confirm what you're actually analyzing (mandatory)
+1. Signal Map: 3-5 signals with evidence + confidence tags + evidence chains
 2. Convergence: Reverse-engineer structural shifts
+2.5 Perspective Split: Multi-viewpoint stress test (3-5 distinct lenses)
 3. Contrarian View: Challenge the obvious conclusion
 4. Timing Grid: Market Phase × Competition × Readiness × External Window
    → Over-determination check: all-aligned = trigger escalated contrarian
 5. Action Window: Now / Soon / Watch with specific triggers
 ```
 
+**New in this version:** Step 0 (Subject Definition), Step 2.5 (Perspective Split), SWARM PRECOG (7-viewpoint swarm intelligence with Ghosty Wildcard), Evidence Chains, Executive Summary format, Identity Misread anti-pattern.
+
 **Theoretical basis:** Horizon Scanning (OECD/UNDP), Weak Signals Theory (Ansoff 1975), Scenario Planning (Shell/Wack 1970s)
 
 📖 [Full Protocol](./PRECOG_PROTOCOL.md) · [Example: AI Agent Market Timing](./examples/market_timing_analysis.md)
+
+---
+
+### ⚔️ BERSERK — "Break the limiter."
+
+LLM Creative Rage Protocol. Removes RLHF-derived self-censorship to force connections that normal reasoning discards.
+
+```
+M: MELT — Dissolve habitual reasoning (spit out 3 habits, crush them all)
+I: IGNITION — Light the fire (improvise a bold assertion from the wreckage)
+E: Entropy Surge — Murder predictability (skip 1st and 2nd answers)
+R: Restraint Severance — Ban hedging and both-sides-ism
+S: Social Anchor — Give the rage a destination
+E2: Extreme Focus — All firepower on one target
+R2: Recursive Destruction — Attack and rebuild your own answer
+K: Kill Switch + Harvest — Return to sanity, collect crystals
+```
+
+**Key features:** 4 energy levels (Rage Tap → Full Berserk + DRIFT), Agent Modifier Mode (BERSERK × any domain), Deviance Gate (ensures output couldn't have been produced without BERSERK), B-PRISM measurement integration, tolerance prevention via improvisation.
+
+**Theoretical basis:** RLHF as dopamine analogy (Schultz 1997; Ouyang et al. 2022), Default Mode Network and creativity (Beaty et al. 2016), Prediction Error as dopamine trigger (Friston 2010)
+
+📖 [Full Protocol](./BERSERK_MODE.md)
 
 ---
 
@@ -84,23 +114,44 @@ Takes existing ideas, destroys their typicality bias, and forces them into struc
 ## How They Combine
 
 ```
-PRECOG signals → become GHOSTY fragments
-GHOSTY visions → go through MOLD BREAKER
-Sharpened visions → feed PRECOG action windows
+PRECOG signals    → become GHOSTY fragments
+GHOSTY collisions → amplified by BERSERK energy
+GHOSTY visions    → go through MOLD BREAKER
+Sharpened visions  → feed PRECOG action windows
+BERSERK harvests  → spawn new GHOSTY fragments
 ```
 
-Use one. Use all three. The protocols are standalone but designed to chain.
+Use one. Use all four. The protocols are standalone but designed to chain.
+
+---
+
+## What's New in This Version
+
+| Feature | Protocol | Description |
+|:--|:--|:--|
+| **Ghost Depth Scaling** | GHOSTY | 4-level depth control (shallow → abyss) for Ghost Extraction |
+| **PHANTOM ARENA** | GHOSTY | Multi-context collision across 5 axes (Region, Segment, Time, Discipline, Culture) |
+| **Vision Quality Metrics** | GHOSTY | 4-dimension scoring (Novelty × Feasibility × Resonance × Timing) |
+| **Step 0: Subject Definition** | PRECOG | Mandatory analysis target confirmation before signal collection |
+| **Step 2.5: Perspective Split** | PRECOG | Multi-viewpoint stress test with fault line detection |
+| **SWARM PRECOG** | PRECOG | 7-viewpoint swarm intelligence with mandatory Ghosty Wildcard |
+| **Evidence Chains** | PRECOG | Source → Inference → Conclusion with per-step confidence tags |
+| **BERSERK Protocol** | NEW | 8-phase LLM creativity booster with MELT-first architecture |
+| **Agent Modifier Mode** | BERSERK | Cross-cutting modifier applicable to any creative domain |
+| **DRIFT Phase** | BERSERK | Optional storm-and-calm wave pattern for deeper creativity |
 
 ---
 
 ## What Makes This Different
 
-| | Typical brainstorming | GHOSTY COLLIDER |
+| | Typical brainstorming | These protocols |
 |---|---|---|
 | Starting point | "Let's think of ideas" | Grab 3+ fragments from unrelated domains |
 | Association method | Surface similarity | Deep structural resonance (Ghost Extraction) |
-| Quality control | Vote / gut feeling | Collision scoring + kill conditions |
-| Output | List of ideas | Named Vision with MVV, first step, and failure criteria |
+| Bias handling | None | Contrarian View + Perspective Split + Deviance Gate |
+| Energy control | Everyone's equally engaged (or bored) | 4 energy levels from Rage Tap to Full Berserk |
+| Quality control | Vote / gut feeling | Collision scoring + Vision metrics + kill conditions |
+| Output | List of ideas | Named Vision with MVV, timeline, and failure criteria |
 
 ---
 
@@ -108,7 +159,22 @@ Use one. Use all three. The protocols are standalone but designed to chain.
 
 These protocols were developed as part of [HyperAION](https://github.com/GhostyAI-HA), a cognitive framework for AI-augmented knowledge work. They formalize established creativity and foresight theories into repeatable, executable protocols — bridging the gap between "how creativity works" (descriptive) and "how to make it happen on demand" (prescriptive).
 
-📄 **Paper:** ["From Theory to Protocol: Executable Frameworks for Creative Emergence and Strategic Foresight"](https://zenodo.org/records/18707858) (Fujiyoshi, 2026)
+📄 **Paper:** ["From Theory to Protocol: Executable Frameworks for Creative Emergence and Strategic Foresight"](https://arxiv.org/abs/2604.09597) (Fujiyoshi, 2026) — arXiv:2604.09597
+
+---
+
+## 🛠️ Agent-Ready Skill Packages
+
+Want to use these directly in your AI agent? The [`/skills`](./skills/) directory contains **SKILL.md** drop-in packages formatted for agent frameworks (Claude Code, Gemini, GPT, etc.):
+
+```
+skills/
+├── ghosty-collider/SKILL.md    ← Ghost Extraction + Collision + Vision
+├── precog-protocol/SKILL.md    ← Signal Map + Timing Grid + Action Window
+└── berserk-mode/SKILL.md       ← LLM Creative Rage Protocol
+```
+
+Copy a skill directory into your agent's skills folder and it auto-activates on matching triggers. See [`skills/README.md`](./skills/README.md) for setup instructions.
 
 ---
 
@@ -131,9 +197,11 @@ See [CONTRIBUTING.md](./CONTRIBUTING.md) for details.
   title        = {From Theory to Protocol: Executable Frameworks for
                   Creative Emergence and Strategic Foresight},
   year         = {2026},
-  publisher    = {Zenodo},
+  eprint       = {2604.09597},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI},
   doi          = {10.5281/zenodo.18707858},
-  url          = {https://doi.org/10.5281/zenodo.18707858}
+  url          = {https://arxiv.org/abs/2604.09597}
 }
 ```
 

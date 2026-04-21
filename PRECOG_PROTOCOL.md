@@ -48,7 +48,7 @@ These frameworks are designed for multi-week workshops with large teams. PRECOG 
 | Your situation | Use | Why |
 |-------------|----------------|-----|
 | "I want to build X" (clear goal) | Standard brainstorming | Goal-driven → design |
-| "Make this edgier" (improve existing) | Creative revision techniques | Banality destruction |
+| "Make this edgier" (improve existing) | **[MOLD BREAKER](./MOLD_BREAKER.md)** | Typicality destruction |
 | **"What's happening in market X? When to move?"** | **→ PRECOG PROTOCOL** | **Signal → Analysis → Timing → Action** |
 | "What do you see in these fragments?" (raw materials) | **[GHOSTY COLLIDER](./GHOSTY_COLLIDER.md)** | Fragments → Ghost → Collide → Vision |
 
@@ -64,9 +64,46 @@ These frameworks are designed for multi-week workshops with large teams. PRECOG 
 | [Reported] | Multi-source reporting | Credible media coverage; primary source not directly accessed |
 | [Speculative] | Hypothesis/inference | Extrapolation from individual cases, industry rumors, analysis |
 
+### Evidence Chain
+
+For each Signal and Convergence hypothesis, trace the reasoning chain:
+
+```
+Source → Inference → Conclusion
+[Tag]     [Tag]       [Tag]
+```
+
+- **Source**: Raw data or event (e.g., "Q4 earnings report shows 30% decline")
+- **Inference**: What the source implies (e.g., "Market appetite is shrinking")
+- **Conclusion**: What follows for the prediction (e.g., "Correction expected in 2Q")
+- **Chain confidence = lowest tag in the chain** (a [Verified] source + [Speculative] inference = [Speculative] conclusion)
+
+Evidence Chains make hallucination-prone reasoning steps explicit and auditable.
+
 ---
 
-## 🔬 The Precog Protocol (5 Steps)
+## 🔬 The Precog Protocol (6 Steps)
+
+### Step 0: Subject Definition (Mandatory)
+
+> **Before building a Signal Map, confirm what the analysis target actually is.** Analyst assumptions about the subject can contaminate every subsequent step.
+
+Procedure:
+1. **What it IS**: State the analysis target in 1-2 precise sentences
+2. **What it is NOT**: Explicitly exclude commonly confused categories
+3. **Owner confirmation**: Confirm the definition with the requestor. If unconfirmed, note as "Assumed"
+
+Format:
+```
+## Step 0: Subject Definition
+- **IS**: [Precise definition]
+- **IS NOT**: [Excluded categories]
+- **Confirmed by**: [Owner / Assumed]
+```
+
+> If proceeding with an "Assumed" definition, include "definition misread" as a potential Collapse trigger in Step 3.
+
+---
 
 ### 📡 Step 1: Signal Map (3-5 Observable Signals)
 
@@ -102,6 +139,56 @@ Narrow to 1-3 convergence points. For each:
 
 ---
 
+### 👥 Step 2.5: Perspective Split (Multi-Viewpoint Stress Test)
+
+Before challenging the mainstream view, stress-test Convergence hypotheses from **3-5 distinct viewpoints**.
+
+Multiple viewpoint simulations evaluate the same hypothesis from different angles, surfacing blind spots a single analyst would miss.
+
+#### Perspective Selection
+
+Pick 3-5 from this roster (or create domain-specific ones):
+
+| Perspective | Lens | Typical Bias |
+|-------------|------|--------------|
+| 🏢 CEO / Investor | Growth, ROI, market share | Overestimates opportunity size |
+| 🏛️ Regulator / Policy | Compliance, public interest | Overestimates regulatory friction |
+| 🔧 Engineer / Builder | Technical feasibility, cost | Underestimates market demand |
+| 🛒 Consumer / End User | Value, convenience, trust | Short-term thinking |
+| 📰 Journalist / Analyst | Narrative, trend, framing | Recency bias, hype amplification |
+| 🎲 Contrarian / Outsider | "What if everyone is wrong?" | Contrarian for its own sake |
+
+#### Procedure
+
+For each Convergence hypothesis:
+1. Each perspective writes **1 paragraph** evaluating the hypothesis through their lens
+2. After all perspectives, extract:
+   - **Agreement zone**: Points all perspectives support
+   - **Fault lines**: Points where perspectives sharply disagree + why
+   - **Blind spots**: Topics no perspective mentioned (these are the most dangerous)
+
+Format:
+```
+## Perspective Split: [Hypothesis]
+| Perspective | Assessment | Key Concern |
+|-------------|-----------|-------------|
+| 🏢 CEO | "Bullish — $X TAM is underpriced" | Ignores regulatory risk |
+| 🏛️ Regulator | "Caution — compliance gap exists" | Overestimates enforcement speed |
+| 🔧 Engineer | "Feasible but 18 months, not 6" | Optimistic on talent supply |
+
+→ Agreement: [Market is real]
+→ Fault line: [Timeline — 6mo vs 18mo, CEO vs Engineer]
+→ Blind spot: [No one discussed supply chain risk]
+```
+
+**The biggest Fault Line feeds directly into Step 3 (Contrarian View).**
+
+> **Perspective Split guidelines:**
+> - **Risk ≥ M or prediction horizon ≥ 6 months**: Full split (3-5 perspectives)
+> - **Risk = L, horizon < 6 months**: Minimum 2 perspectives (most bullish + most bearish)
+
+---
+
 ### 🔴 Step 3: Contrarian View (Bias Elimination)
 
 For the most "obvious" conclusion, examine **why it might be wrong**.
@@ -130,7 +217,7 @@ Required:
 #### 4.1 Market Phase (Hype Cycle Axis)
 
 | Phase | Characteristics | Guideline |
-|-------|----------------|-----------|
+|-------|----------------|-----------| 
 | 🌱 Emergence | Experimental, low awareness | Research & small experiments |
 | 📈 Acceleration | Rapid adoption, investment surge | Aggressive entry |
 | 🏔️ Peak Hype | Overinflated expectations, bubble-like | Caution, focus on differentiation |
@@ -203,6 +290,82 @@ Each action requires:
 
 ---
 
+## 🐟 SWARM PRECOG — Swarm Intelligence Forecasting
+
+> Instead of a single analyst reviewing a single conclusion, SWARM PRECOG runs 7+ **viewpoint simulations** to surface bias and blind spots.
+
+> **Note:** These are viewpoint simulations, NOT independent samples. Agreement across viewpoints indicates directional consensus, but the count (e.g., "5/7 agree") should be treated as a **bias detection heuristic**, not statistical evidence.
+
+**Step 2.5 (Perspective Split) is the lightweight version. SWARM PRECOG is the full version.**
+
+### When to activate
+
+- Prediction horizon ≥ 6 months
+- Step 2.5 revealed a major fault line with significant impact spread
+- High-stakes predictions where a single viewpoint is insufficient
+- Explicitly requested
+
+### Viewpoint Roster (pick 7, always include #7)
+
+| # | Viewpoint | Lens | What they tend to miss |
+|---|-----------|------|----------------------|
+| 1 | 🏢 Ambitious CEO | Growth, market share, expansion | Regulation, employee burnout |
+| 2 | 🏛️ Cautious Regulator | Compliance, public interest, risk | Innovation speed, market demand |
+| 3 | 🔧 Pragmatic Engineer | Feasibility, tech debt, cost | Market timing, business model |
+| 4 | 🛒 Skeptical Consumer | Value, convenience, trust, price | Supply-side economics |
+| 5 | 📊 Data-Driven Investor | ROI, unit economics, comparables | Qualitative shifts, culture |
+| 6 | 📰 Narrative Journalist | Story, trend, public perception | Technical depth, edge cases |
+| 7 | 👻 **Ghosty Wildcard** | _Generated via GHOSTY COLLIDER_ | _By design: fills the group's collective blind spot_ |
+
+**Viewpoint 7 is mandatory.** It is generated by running Ghost Extraction on the prediction theme and finding the perspective that _no one in the room would naturally hold_.
+
+### Procedure
+
+```
+1. Each viewpoint simulation writes 1 paragraph on the prediction theme
+   - Each simulates a distinct perspective (NOT truly independent samples)
+   - Each uses their lens to evaluate probability + timeline + impact
+
+2. META-ANALYST aggregates:
+   ┌─────────────────────────────────────────┐
+   │ Agreement Map: Points 5+ viewpoints agree│
+   │ Fault Map:     Points with 2+ vs 2+     │
+   │ Distribution:  Scenario × Probability    │
+   │ Blind Spots:   Topics NO viewpoint raised│
+   └─────────────────────────────────────────┘
+
+3. Fault Map's biggest rift → feeds into Step 3 (Contrarian View)
+4. Blind Spots → added to Signal Map as [Speculative] signals
+```
+
+### Output Format
+
+```markdown
+## 🐟 SWARM PRECOG: [Theme]
+
+### Viewpoint Predictions
+| # | Viewpoint | Prediction | Probability | Timeline |
+|---|---------|-----------|-------------|----------|
+| 1 | 🏢 CEO | "Rapid consolidation" | 70% | 12-18mo |
+| 2 | 🏛️ Regulator | "Regulation slows growth" | 40% | 24mo |
+| ... | ... | ... | ... | ... |
+| 7 | 👻 Wildcard | "[Unexpected angle]" | ??% | ??mo |
+
+### Meta-Analysis
+- **Agreement (5+/7)**: [What most viewpoints agree on — note: directional heuristic, not statistical evidence]
+- **Fault Line**: [Biggest disagreement + why it matters]
+- **Probability Distribution**: [Scenario A: X%, Scenario B: Y%]
+- **Blind Spots**: [What NO one mentioned → added as new signals]
+```
+
+### Cost
+
+- 7 viewpoints × ~200 tokens each + meta-analysis ≈ 2,500 tokens total
+- Roughly 3× the cost of a standard precog analysis
+- Worth it for high-stakes predictions with 1+ year horizon
+
+---
+
 ## 📊 Signal History (Longitudinal Signal Tracking)
 
 When analyzing the same theme across multiple sessions, compare with previous Signal Maps.
@@ -248,24 +411,25 @@ Track the accuracy of past predictions to improve future analysis quality.
 
 ---
 
-## 🚨 Anti-Patterns (How This Goes Wrong)
-
-| Anti-Pattern | Symptom | Fix |
-|-------------|---------|-----|
-| **Confirmation Bias in Signal Selection** | Only collecting signals that support a pre-existing belief | Force at least one signal that contradicts your thesis. If you can't find one, your search is too narrow |
-| **Single-Axis Timing** | "Market is hot, let's go!" without checking readiness or competition | Always complete the full 4-axis Timing Grid. One "Go" axis doesn't mean overall "Go" |
-| **Timing Grid Over-Determination** | All 4 axes align unanimously (all Go or all Wait) | **Trigger escalated Contrarian View.** Unanimous agreement across independent axes is statistically suspicious — apply the Pre-Mortem test |
-| **Vague Action Windows** | "Watch and see" / "Monitor the situation" without specific triggers | Every Watch item MUST have a concrete trigger: "If X happens, then do Y" |
-| **Recency Bias** | Overweighting events from the last 2 weeks | Check: "Would I still select this signal if it happened 6 months ago?" |
-| **Survivorship Bias** | Only citing successful cases in Convergence | In Contrarian View, actively search for failures in similar situations |
-| **Speculative Masquerading as Verified** | Marking rumor-based signals as [Verified] | Strict rule: [Verified] = primary source accessible. If you can't link to the source, it's [Reported] at best |
-
----
-
 ## 📋 Output Format
 
 ```markdown
 # Signal Analysis: [Theme]
+
+## Executive Summary
+
+**Judgment**: [Go / Conditional Go / Wait / No-Go]
+**Timing**: [When to move — specific timing and conditions]
+**Top Risk**: [Most critical risk from Contrarian View or SWARM Blind Spots]
+**SWARM question evolution** (SWARM only): [Pre-SWARM question → Post-SWARM evolved question]
+
+### Actions (priority order)
+1. **Now**: [Most important immediate action]
+2. **Soon**: [Conditional action + trigger]
+3. **Watch**: [Signal to monitor]
+
+---
+*Below: detailed analysis supporting the above judgment*
 
 ## Signal Map
 | # | Signal | Direction | Tag | Evidence |
@@ -273,9 +437,19 @@ Track the accuracy of past predictions to improve future analysis quality.
 | 1 | ... | ↑ | [Verified] | ... |
 | 2 | ... | → | [Reported] | ... |
 
+## Evidence Chain (per signal)
+| Signal | Source [Tag] | Inference [Tag] | Conclusion [Tag] | Chain Confidence |
+|--------|-------------|-----------------|------------------|------------------|
+| 1 | Q4 report [Verified] | Market shrinking [Reported] | Correction in 2Q [Speculative] | [Speculative] |
+
 ## Convergence (Reverse-Engineered Structure)
 - Hypothesis 1: ... (Confidence: High/Medium/Low)
 - Hypothesis 2: ...
+
+## Perspective Split (minimum 2 perspectives)
+| Perspective | Assessment | Key Concern |
+|-------------|-----------|-------------|
+→ Agreement / Fault line / Blind spot summary
 
 ## Contrarian View
 🔴 [Mainstream view] may be wrong because:
@@ -298,14 +472,48 @@ Track the accuracy of past predictions to improve future analysis quality.
 | Now | ... | ... | — | ... |
 | Soon | ... | ... | [condition] | ... |
 | Watch | ... | ... | [signal] | — |
+
+## 🐟 SWARM PRECOG (when prediction horizon ≥ 6 months)
+[See SWARM PRECOG section for format]
 ```
+
+---
+
+## 🚨 Anti-Patterns (How This Goes Wrong)
+
+| Anti-Pattern | Symptom | Fix |
+|-------------|---------|-----|
+| **Confirmation Bias in Signal Selection** | Only collecting signals that support a pre-existing belief | Force at least one signal that contradicts your thesis. If you can't find one, your search is too narrow |
+| **Single-Axis Timing** | "Market is hot, let's go!" without checking readiness or competition | Always complete the full 4-axis Timing Grid. One "Go" axis doesn't mean overall "Go" |
+| **Timing Grid Over-Determination** | All 4 axes align unanimously (all Go or all Wait) | **Trigger escalated Contrarian View.** Unanimous agreement across independent axes is statistically suspicious — apply the Pre-Mortem test |
+| **Vague Action Windows** | "Watch and see" / "Monitor the situation" without specific triggers | Every Watch item MUST have a concrete trigger: "If X happens, then do Y" |
+| **Recency Bias** | Overweighting events from the last 2 weeks | Check: "Would I still select this signal if it happened 6 months ago?" |
+| **Survivorship Bias** | Only citing successful cases in Convergence | In Contrarian View, actively search for failures in similar situations |
+| **Speculative Masquerading as Verified** | Marking rumor-based signals as [Verified] | Strict rule: [Verified] = primary source accessible. If you can't link to the source, it's [Reported] at best |
+| **Identity Misread** | Analyst misidentifies the analysis target, contaminating all steps | **Never skip Step 0.** Confirm the definition with the owner before starting. If proceeding with an Assumed definition, include "definition misread" in the Contrarian View's Collapse triggers |
+
+---
+
+## 🛡️ Guardrails (Quality Gates)
+
+- **Fact Gate enforced**: Signal analysis is a hallucination hotspot. [Verified] is for primary sources only.
+- **Time sensitivity**: Every "latest" claim must have a date attached. Unknown date = [Reported] or below.
+- **Prediction humility**: Future predictions must carry [Estimate] or [Speculative] tags. Never state predictions as fact.
+- **Bias awareness**:
+  - Recency bias (overvaluing what just happened)
+  - Survivorship bias (only seeing winners)
+  - Confirmation bias (finding what you want to find)
+  → Contrarian View (Step 3) is the mandatory antidote
+- **Multi-axis judgment**: Never decide timing on one axis alone. Always use the full Timing Grid.
 
 ---
 
 ## 🔗 See Also
 
 - **[GHOSTY COLLIDER](./GHOSTY_COLLIDER.md)** — Creative collision engine for cross-domain idea generation. Signals from PRECOG become Fragments for GHOSTY COLLIDER, and Visions from GHOSTY COLLIDER feed into PRECOG's Action Window.
-- **[Example: Market Timing Analysis](./examples/market_timing_analysis.md)** — Full walkthrough analyzing the AI agent market for strategic positioning.
+- **[BERSERK MODE](./BERSERK_MODE.md)** — LLM Creative Rage Protocol. Can amplify SWARM PRECOG's Ghosty Wildcard viewpoint.
+- **[MOLD BREAKER](./MOLD_BREAKER.md)** — Typicality bias destruction.
+- **[Example: AI Agent Market Timing](./examples/market_timing_analysis.md)** — Full walkthrough analyzing the AI agent market for strategic positioning.
 
 ---
 
@@ -313,10 +521,18 @@ Track the accuracy of past predictions to improve future analysis quality.
 
 If you use PRECOG PROTOCOL in your work, please cite:
 
-```
-Fujiyoshi, S. (2026). PRECOG PROTOCOL: A Signal-Based Foresight Engine for
-Multi-Axis Strategic Timing. GitHub.
-https://github.com/GhostyAI-HA/ghosty-collider
+```bibtex
+@misc{fujiyoshi2026collider,
+  author       = {Fujiyoshi, Shun},
+  title        = {From Theory to Protocol: Executable Frameworks for
+                  Creative Emergence and Strategic Foresight},
+  year         = {2026},
+  eprint       = {2604.09597},
+  archivePrefix= {arXiv},
+  primaryClass = {cs.AI},
+  doi          = {10.5281/zenodo.18707858},
+  url          = {https://arxiv.org/abs/2604.09597}
+}
 ```
 
 ---
